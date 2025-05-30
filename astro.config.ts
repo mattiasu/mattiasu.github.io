@@ -37,7 +37,7 @@ export default defineConfig({
       },
     },
     ssr: {
-      noExternal: [BASE + "/pagefind/pagefind.js"],
+      noExternal: [SITE + "/pagefind/pagefind.js"],
     },
     plugins: [pagefind()],
     build: {
