@@ -10,8 +10,7 @@ import tailwind from "@astrojs/tailwind";
 import svelte from "@astrojs/svelte";
 import { pagefind } from "vite-plugin-pagefind";
 
-const BASE = "";
-const SITE = "https://mattiasu.github.io/";
+import { BASE, SITE } from "./src/config.ts";
 
 import customEmbeds from "astro-custom-embeds";
 
