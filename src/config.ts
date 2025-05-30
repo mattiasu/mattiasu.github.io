@@ -8,7 +8,7 @@ export const SITE = "https://mattiasu.github.io/";
 // NUMBER TWO:
 // if repo name is <your-github-username>.github.io set to '/'
 // otherwise set to '/<your-repo-name>'
-export const BASE = "";
+export const BASE = "/mu/";
 
 // MORE SETTINGS:
 
