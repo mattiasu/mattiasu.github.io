@@ -3,7 +3,7 @@ import type { AccentColor, BaseColor } from "./colors";
 // IMPORTANT SET THOSE TWO VARIABLES:
 // NUMBER ONE:
 // if deployed to github pages, set to https://<your-github-username>.github.io/
-export const SITE = "https://mattiasu.github.io/";
+export const SITE = "https://addy.se/";
 
 // NUMBER TWO:
 // if repo name is <your-github-username>.github.io set to '/'
@@ -13,7 +13,7 @@ export const BASE = "";
 // MORE SETTINGS:
 
 // will be used for the the title and meta tags and in the header (if SITE_NAME is left blank)
-export const SITE_TITLE = "Addy.se ";
+export const SITE_TITLE = "addy.se ";
 
 // will be used in the meta tags (and for example shown in search results)
 export const SITE_DESCRIPTION = "Welcome to the Add Y blog!";
