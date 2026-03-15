@@ -23,6 +23,8 @@ import LinkCardEmbed from "./src/embeds/link-card/embed";
 import YoutubeEmbed from "./src/embeds/youtube/embed";
 import ExcalidrawEmbed from "./src/embeds/excalidraw/embed";
 
+const isProd = process.env.NODE_ENV === "production";
+
 // https://astro.build/config
 export default defineConfig({
   vite: {
@@ -38,7 +40,9 @@ export default defineConfig({
     ssr: {
       noExternal: [SITE + "/pagefind/pagefind.js"],
     },
-    plugins: [pagefind()],
+    plugins: [
+      isProd && pagefind()
+    ].filter(Boolean),
     build: {
       rollupOptions: {
         external: [BASE + "/pagefind/pagefind.js"],
